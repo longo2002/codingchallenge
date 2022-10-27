@@ -1,0 +1,83 @@
+/* sfondo*/
+#corpo{
+  background-image: url("file:///C:/Users/lomba/OneDrive/Documents/class5/codingchallenge/sfondo.jpg");
+  background-size: cover;
+  padding-top: 100px;
+}
+/* quadrato nero  */
+.container{
+  width: 50%;
+  height: 25%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  padding: 2%;
+}
+/* Intestazione e Logo*/
+#intestazione{
+  text-align: center;
+  color: lime;
+}
+
+h2{
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.logo{
+  width: 250px;
+}
+/* menu */
+.container2{
+  height: 25px;
+  margin: auto;
+  padding: 1%;
+  background-color: lime;
+  text-align: center;
+}
+
+.button{
+  display: inline-block;
+}
+/* localizzazione e stato di carica monopattini */
+.container3{
+  width: 35%;
+  height: 25%;
+  border-radius: 25px;
+  padding-top: 15px;
+}
+
+span{
+  font-family: sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+.localizzazione{
+  font-family: sans-serif;
+  color: white;
+}
+
+#statodicarica1{
+  height: 25px;
+  width: 350px;
+  border-radius: 5px;
+  background-color: rgb(255, 165, 71);
+  margin-bottom: 25px;
+}
+
+#statodicarica2{
+  height: 25px;
+  width: 550px;
+  border-radius: 5px;
+  background-color: rgb(0, 200, 0);
+  margin-bottom: 25px;
+}
+
+#statodicarica3{
+  height: 25px;
+  width: 150px;
+  border-radius: 5px;
+  background-color: rgb(139, 0, 0);
+  margin-bottom: 25px;
+}
